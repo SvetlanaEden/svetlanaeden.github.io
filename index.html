@@ -1,10 +1,37 @@
 ---
 layout: default
+title: "My WebPAge"
+messages: 
+ - Toranado
+ - Other stuff
 ---
+
+
+{% comment %}
+	 The stuff above is someting that is accessed with variable page.
+	 The stuff below is called liquid and the stuff after | is called a filter, for example
+   <h1> {{ page.title | upcase }} </h1>
+
+	 For-loop:
+		{% for i in (1..5) %}
+		  <h1> {{ page.title | upcase }} </h1>
+		{% endfor %}	 
+
+{% for i in (1..5) %}
+  <h1> {{ page.title | upcase }} </h1>
+{% endfor %}
+
+{% for message in page.messages %}
+  <p> {{ message }} </p>
+{% endfor %}
+
+{% endcomment %}
+
 
 <div id="container" class="cols">
     {% for post in site.posts %}
     <div class="box" style="background-color:#{{post.color}}">
+			<!-- <h1> {{ page.title | upcase }} </h1> -->
        {% if post.img %}
           <img class="feat-image" src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
        {% endif %}
