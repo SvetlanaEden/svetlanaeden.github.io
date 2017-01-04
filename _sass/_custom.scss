@@ -2,7 +2,14 @@
 //.fa.fa-sun-o {
 //h1 {
 //body {
-.thespinningsnowflake {
+
+.sidenav .thespinningsnowflake {
+}
+
+// all the svg files that are in header should spin: this is technically our snowflake
+h1.header-title svg {
+    height: 40pt;
+		width: 40pt;
     color: #ea6111;
 -webkit-animation-name: spin;
     -webkit-animation-duration: 9000ms;

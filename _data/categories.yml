@@ -1,0 +1,16 @@
+projects:
+  url: "http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenRFiles"
+  label: "Projects"
+CV:
+  url: "/CV/"
+  label: "CV"
+# sugar:
+#    url: "/sugar/"
+# 	 label: "Sugar"
+#
+# art:
+#    url: "/art/"
+# 	 label: "Art"
+aknowledgements:
+  url: "/aknowledgements/"
+  label: "Aknowledgements"
