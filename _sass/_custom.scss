@@ -6,10 +6,18 @@
 .sidenav .thespinningsnowflake {
 }
 
+.sidenav svg {
+  margin-bottom: -.95em;
+}
+
+h1.Svetlana svg {
+  margin-bottom: -.8em;
+}
+
 // all the svg files that are in header should spin: this is technically our snowflake
 h1.header-title svg {
-    height: 40pt;
-		width: 40pt;
+    height: 60pt;
+		width: 60pt;
     color: #ea6111;
 -webkit-animation-name: spin;
     -webkit-animation-duration: 9000ms;

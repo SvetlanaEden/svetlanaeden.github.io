@@ -1,9 +1,14 @@
 projects:
   url: "http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenRFiles"
   label: "Projects"
+  description: "Projects stuff"
+  image: "extremeperspective_sc12.jpeg"
+  color: 212121
 CV:
-  url: "/CV/"
+  url: "/assets/CV/cv20141228.pdf"
   label: "CV"
+  description: "CV stuff"
+  color: 212121
 # sugar:
 #    url: "/sugar/"
 # 	 label: "Sugar"
@@ -12,5 +17,13 @@ CV:
 #    url: "/art/"
 # 	 label: "Art"
 aknowledgements:
-  url: "/aknowledgements/"
-  label: "Aknowledgements"
+  url: "/acknowledgements/"
+  label: "Acknowledgements"
+  description: "Acknowledgements stuff"
+  color: 919191
+
+art:
+  url: "/art/"
+  label: "Art"
+  description: "Art stuff"
+  color: 121212

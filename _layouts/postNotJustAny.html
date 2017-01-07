@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% comment %}
+  Jekyll does not know
+{% endcomment %}
+
+<div id="container" class="cols">
+ {% for post in site.posts %}
+   {% if post.tags contains page.tagName %}
+	   <a href = "{{post.url | prepend: site.baseurl}}">	
+       <div class="box" style="background-color:#{{post.color}}">
+         {% if post.img %}
+           <img class="feat-image" src="{{ '/images/' | prepend: site.baseurl | append: post.img }}" alt="{{post.title}}">
+         {% endif %}
+           <div class="container">
+             <h4>{{post.title}}</h4>
+             <p>{{post.description}}</p>
+             <div class="action">{{ post.date | date: '%B %d, %Y' }}</div>
+           </div>
+       </div>
+     </a>
+   {% endif %}
+ {% endfor %}
+</div>

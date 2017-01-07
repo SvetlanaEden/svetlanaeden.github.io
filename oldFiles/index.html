@@ -23,18 +23,18 @@ layout: default
 
 {% endcomment %}
 
+
 <div id="container" class="cols">
-    {% for category in site.data.categories %}
-		<a href = "{{category[1].url}}">	
-    <div class="box" style="background-color:#{{category[1].color}}">
-       {% if category[1].image %}
-          <img class="feat-image" src={{ "/images/" | prepend: site.baseurl | append: category[1].image }} alt="{{category[1].label}}">
+    {% for post in site.posts %}
+    <div class="box" style="background-color:#{{post.color}}">
+       {% if post.img %}
+          <img class="feat-image" src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
        {% endif %}
           <div class="container">
-            <h4>{{category[1].label}}</h4>
-            <p>{{category[1].description}}</p>
+            <h4>{{post.title}}</h4>
+            <p>{{post.description}}</p>
+             <div class="action">{{ post.date | date: '%B %d, %Y' }}<a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
         </div>
     </div>
-		</a>
    {% endfor %}
 </div>
