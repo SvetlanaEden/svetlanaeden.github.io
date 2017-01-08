@@ -1,0 +1,154 @@
+********************************************************
+>>>>>
+Variable site.title is stored in _config.yml
+If you change site.  variables you have to restart Jekyll
+
+The style of the snowflake is in _custom.scss
+
+"Svetlana" is in _config.yml
+"Eden" is in default.html
+
+created a file called categories.yml
+and loop on it in menu-links.html
+
+all files in _data will be store in site.data.sections
+
+
+We change index.html
+Stuff like {% endif %}, or {{}}, and the markdown looking stuff is Jekyll.
+Any file within three dashes will be converted by Jekyll
+
+Counting posts:
+     ls _posts | wc -l
+
+
+The snowflake is in _include folder
+
+Looking for string 'fa fa-sun-o'recursively excluding director _site:
+   grep -R  --exclude-dir '_site' 'fa fa-sun-o' * 
+
+
+We assigned a class in snowflake.svg
+Then we put the snowflake file name into the default.html
+Then inserted it into _custom.scss
+
+
+<<<<<
+********************************************************
+
+
+
+
+********************************************************
+>>>>>
+Download a new theme:
+ * find the theme in github
+ * fork it (press on fork in github) 
+ * then delete gh-pages for some reason
+ * then make your own gh-pages
+ 
+Michael's way:
+ * find the theme in github
+ * copy  the https thing
+ * go above folder svetlana.github.io, remove it and do:
+  git clone  https://github.com/sharu725/karna.git svetlanaeden.github.io
+	
+ * if it gives an error (dependency error) go 
+ the bottom of config.yml:
+ 	 gems: [jekyll-paginate, jekyll-seo-tag]
+    and    create file Gemfile and fill it with stuff (see the file) that are on 
+   this generates file Gemfile.lock, so you know what versions you used when everything worked.
+	 
+	 Commit Gemfiles (but DO NOT PUSH)
+	 do:
+	 git remote remove origin
+	 git remote add origin https://github.com/SvetlanaEden/svetlanaeden.github.io.git
+	 
+ * now we move the files from gh-pages to master:
+	 git fetch
+	 git checkout master
+	 git reset --hard gh-pages
+ * make a backup for your current folder
+	 git reset --hard origin/master
+	 git reset --hard gh-pages
+	 git push -f -u origin master 
+<<<<<
+********************************************************	 
+
+
+********************************************************
+>>>>>
+Show web inspector (now it is in your menu bar, but you can get there through preferences, Advanced, "Show develop menu bar")
+
+go to _config.yml
+ and change baseurl to
+   baseurl: ""
+
+<<<<<
+********************************************************
+
+
+
+
+?How to add _pages?
+?What does this mean to "reboot your local environment"?
+
+********************************************************
+>>>>>
+Create a new project:
+	 jekyll new svetlanaeden.github.io
+<<<<<
+********************************************************	 
+
+
+********************************************************
+>>>>>
+Commit to github:
+	 git status
+	 git add -A
+	 git commit -m "firt edit in _config.yml"
+	 git log
+	 git push origin master
+<<<<<
+********************************************************	 
+
+	 
+	 
+	 
+********************************************************
+>>>>>
+Start to run the server so I can see what it looks like implement changes and rebuild:
+   jekyll serve
+	 
+Now navigate to http://127.0.0.1:4000/ in your browser to see the Jekyll install we just setup.
+
+To update the changes:
+   jekyll build
+or
+   jekyll build --destination <destination>	 
+	 jekyll build --watch
+<<<<<
+********************************************************	 
+
+
+See what the website look like here:	 
+	 http://127.0.0.1:4000/
+	 
+If I want to write a post, I should go into _posts, for example:
+   2016-12-20-welcome-to-jekyll.markdown
+	
+To stop it, do: 
+   Ctrl C
+	 
+********************************************************
+>>>>>
+	 Install stuff:
+	    brew install rbenv ruby-build
+	 	 rbenv install 2.3.3
+	    rbenv global 2.3.3
+
+	    sudo gem install jekyll
+	    sudo gem install bundler
+<<<<<
+********************************************************	 
+	 

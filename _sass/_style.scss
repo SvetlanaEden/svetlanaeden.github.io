@@ -160,8 +160,9 @@ header {
     margin: 2em 0;
 }
 
+// The style for the title "Svetlana"
 .header-title {
-    color: #555;
+    color: #212121;
     font-size: 3em;
     line-height: 0;
     margin: 0;
@@ -171,11 +172,13 @@ header {
     text-shadow: 0 0 1px;
 }
 
-
+// The style for the title "Eden"
 .header-tagline {
-    font-weight: 300;
+    font-weight: 600;
+//    line-height: 1;
+//    color: #ea6111;
     line-height: 1;
-    color: #ea6111;
+    color: #919191;
     text-shadow: 0 0 1px;
     
 }

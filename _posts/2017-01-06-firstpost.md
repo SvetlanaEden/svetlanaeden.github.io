@@ -13,3 +13,4 @@ tags:
 {: toc} -->
 
 # Under construction: 
+[**Temporary link to my art projects**](http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenHobbies)
