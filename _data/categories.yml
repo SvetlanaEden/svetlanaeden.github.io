@@ -3,14 +3,15 @@ aknowledgements:
   label: "Acknowledgements"
   description: "            "
   image: "rockOfNevadaDesert_BW_12.jpg"
-  color: 414141
+  color: 212121
 
 projects:
   url: "http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenRFiles"
   label: "Projects"
   description: "Projects, presentations, etc."
-  image: "extremeperspective_sc12.jpeg"
+  image: "seaPebblesIsrael.jpg"
   color: 212121
+  
 CV:
   url: "/assets/CV/cv20141228.pdf"
   label: "CV"
@@ -20,5 +21,6 @@ CV:
 art:
   url: "/art/"
   label: "Art"
+  image: "extremeperspective_sc12.jpeg"
   description: "Art stuff"
   color: 121212
