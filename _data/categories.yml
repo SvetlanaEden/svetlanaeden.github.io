@@ -8,19 +8,27 @@ aknowledgements:
 projects:
   url: "http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenRFiles"
   label: "Projects"
-  description: "Projects, presentations, etc."
+  description: "Projects and presentations (under construction)"
   image: "seaPebblesIsrael.jpg"
   color: 212121
   
 CV:
   url: "/assets/CV/cv20141228.pdf"
   label: "CV"
-  description: "CV stuff"
+  description: "   "
   color: 212121
 
 art:
   url: "/art/"
   label: "Art"
   image: "extremeperspective_sc12.jpeg"
-  description: "Art stuff"
+  description: "Painting and drawing are my hobbies"
   color: 121212
+  
+improvementAndAwareness:
+  url: "/improvementandawareness/"
+  label: "Improvement and Awareness (under construction)"
+  image: "pebblesInSandIsrael_gray_4.jpg"
+  description: "Recommended books, movies, articles ..."
+  color: 121212
+

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My first post
-description: Charles Brindley's Art Class 
+title: Earlier art
+description: Paintings and drawings from around 2004-2009
 img: extremeperspective_sc12.jpeg
 color: 212121
 author: me
@@ -11,6 +11,6 @@ tags:
 
 <!-- * some text
 {: toc} -->
+<!-- # Under construction:  -->
 
-# Under construction: 
 [**Temporary link to my art projects**](http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenHobbies)
