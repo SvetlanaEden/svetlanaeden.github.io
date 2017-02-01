@@ -1,4 +1,36 @@
 ********************************************************
+********************************************************
+********************************************************
+jekyll serve	 
+Navigate to http://127.0.0.1:4000/ in your browser to see the Jekyll install we just ********************************************************
+********************************************************
+********************************************************
+>>>>>
+*** _layouts/default.html      The structure for the FRONT PAGE is in default.html (svetlana eden, snowflake, footer, and all the buttons)
+
+*** _includes/menu-links.html   The structure for the SIDE MENU is in menu-links.html (svetlana eden, snowflake, footer, and all the buttons)
+
+
+*** _data/categories.yml    My MENU ITEMS (FRONT PAGE or SIDE MENU) are in categories.yml. This file SHOULD NOT have any tabs - only spaces!
+*** _data/categories.yml    contains all "paths" down the link "tree", for example: to "art" and to "acknowledgements"
+
+*** _pages/art.md                      The page for the ART category that uses layout in _layouts/_postNotJustAny.html
+*** _layouts/_postNotJustAny.html      The layout for the ART page
+
+*** _pages/acknowledgements.md         The page for the ACKNOWLEDGEMENTS category
+
+
+*** _sass/_menu.scss        The styles for the FONT of the side menu are in file _menu.scss
+
+*** _sass/_styles.scss      The styles for the FONT of Svetlana Eden are in file _styles.scss
+
+*** _sass/_custom.scss      The styles for the SNOWFLAKEs of the side menu are in file _custom.scss: it is <h1 class="header-title">
+>>>>>
+********************************************************
+
+
+
+********************************************************
 >>>>>
 Variable site.title is stored in _config.yml
 If you change site.  variables you have to restart Jekyll
@@ -13,7 +45,6 @@ and loop on it in menu-links.html
 
 all files in _data will be store in site.data.sections
 
-
 We change index.html
 Stuff like {% endif %}, or {{}}, and the markdown looking stuff is Jekyll.
 Any file within three dashes will be converted by Jekyll
@@ -26,6 +57,8 @@ The snowflake is in _include folder
 
 Looking for string 'fa fa-sun-o'recursively excluding director _site:
    grep -R  --exclude-dir '_site' 'fa fa-sun-o' * 
+Looking for string 'fa fa-sun-o'recursively excluding director _site case INSENSITIVE:
+   grep -R -i --exclude-dir '_site' 'fa fa-sun-o' * 
 
 
 We assigned a class in snowflake.svg
