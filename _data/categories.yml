@@ -6,7 +6,7 @@ aknowledgements:
   color: 212121
 
 projects:
-  url: "http://biostat.mc.vanderbilt.edu/wiki/Main/SvetlanaEdenRFiles"
+  url: "/projects/"
   label: "Projects"
   description: "Projects and presentations (under construction)"
   image: "seaPebblesIsrael.jpg"
