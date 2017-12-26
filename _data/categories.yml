@@ -18,11 +18,11 @@ CV:
   description: "   "
   color: 212121
 
-art:
+Art:
   url: "/art/"
   label: "Art"
   image: "extremeperspective_sc12.jpeg"
-  description: "Painting and drawing are my hobbies"
+  description: "Oil painting and drawing"
   color: 121212
   
 improvementAndAwareness:
