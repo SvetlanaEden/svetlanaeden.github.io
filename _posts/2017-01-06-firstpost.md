@@ -16,7 +16,7 @@ tags:
 
 <!-- [**Page with paintings**](mypaintingphotos) -->
 
-#####   Far and away, 2016
+#####   Far and away, 2009
 ![](/images-hq/extremeperspective_sc12.jpeg)
 <br>
 <hr>
