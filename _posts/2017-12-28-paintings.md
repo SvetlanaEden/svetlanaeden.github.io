@@ -2,7 +2,7 @@
 layout: post
 title: Paintings
 color: 212121
-img: TheRiverOfTime_4Gray.jpg
+<!-- img: TheRiverOfTime_4Gray.jpg -->
 author: me
 tagName: artPaintings
 tags:
