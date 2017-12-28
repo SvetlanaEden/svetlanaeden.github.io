@@ -2,7 +2,7 @@
 layout: post
 title: Drawings
 description: Drawings (under construction)
-img: extremeperspective_sc12.jpeg
+<!--img: extremeperspective_sc12.jpeg -->
 color: 212121
 author: me
 tags:
