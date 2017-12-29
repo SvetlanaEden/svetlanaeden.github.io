@@ -1,7 +1,8 @@
 ---
 title: Something else
 layout: post
-permalink: /somethingelse/
+permalink: /paintings/
+tagName: paintings
 ---
 
-Reorganizing the webpage
+### Hey!!!

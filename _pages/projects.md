@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 #### Snowflakes
-Snowflakes have always seemed to me as some of the most beautiful objects. In order to be able to enjoy them in my work I wrote a very small R-package that generates _random snowflakes_. The images of the snowflakes can be used as plot symbols or for other purposes (art, crafts, ...). It is available on [**CRAN**](https://cran.r-project.org). 
+Snowflakes have always seemed to me as some of the most beautiful objects. In order to be able to enjoy them in my work I wrote a very small R-package that generates _random snowflakes_, [**see the vignette file**](/assets/PROJECTS/snowflakes.html). The images of the snowflakes can be used as plot symbols or for other purposes (art, crafts, ...). It is available on [**CRAN**](https://cran.r-project.org). 
 
 <br>
 
