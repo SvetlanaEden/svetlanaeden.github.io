@@ -5,6 +5,7 @@ title: Far and Away, 2009
 img: extremeperspective_sc12.jpeg
 color: 212121
 author: me
+colorscheme: dark
 tags:
   - drawings
 ---

@@ -5,6 +5,7 @@ title: The River of Time, 2016
 img: TheRiverOfTime20160828_Cropped.jpg
 color: 212121
 author: me
+colorscheme: dark
 tags:
   - paintings
 ---

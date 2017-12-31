@@ -5,6 +5,7 @@ title: Fall Creek Fall, 2008
 img: fallCreekFall_4sc.tif
 color: 212121
 author: me
+colorscheme: dark
 tags:
   - drawings
 ---

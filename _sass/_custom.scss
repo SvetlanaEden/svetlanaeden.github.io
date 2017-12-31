@@ -1,7 +1,18 @@
 // The rotating sun in the logo
-//.fa.fa-sun-o {
-//h1 {
-//body {
+  
+  
+// Black colors for painting
+body.dark {
+  background-color: black;
+  
+  // any rules in here will only apply when body has the 'black' class
+  h1, p, span {
+    color: white;
+  }
+}
+body{
+  background-color: #F5F5F5;
+}
 
 .sidenav .thespinningsnowflake {
 }

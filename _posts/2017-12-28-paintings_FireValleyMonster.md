@@ -5,6 +5,7 @@ title: The Monster of the Fire Valley, 2017
 img: fireMonster.jpg
 color: 212121
 author: me
+colorscheme: dark
 tags:
   - paintings
 ---

@@ -5,6 +5,7 @@ title: Competition, 2016
 img: daisies.jpg
 color: 212121
 author: me
+colorscheme: dark
 tags:
   - paintings
 ---
