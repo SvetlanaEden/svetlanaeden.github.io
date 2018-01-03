@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Far and Away, 2009
+title: April Snow, 2008
 <!--description: Rock formation in Nevada Desert -->
-img: extremeperspective_sc12.jpeg
+img: aprilSnowDouglas_12sc.jpg
 color: 212121
 author: me
 colorscheme: dark
@@ -10,7 +10,7 @@ tags:
   - drawings
 ---
 
-A path in Korolev, Russia.
+A park in Korolev, Russia.
 <!-- * some text
 {: toc} -->
 <!-- # Under construction:  -->

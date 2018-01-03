@@ -10,4 +10,4 @@ tags:
   - paintings
 ---
 
-Rock formation in Nevada Desert. Oil on canvas.    
+Rock formation in Nevada. Oil on canvas.    

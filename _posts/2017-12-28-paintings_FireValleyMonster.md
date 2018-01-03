@@ -10,4 +10,4 @@ tags:
   - paintings
 ---
 
-Rock formation at Fire Valley, Nevada Desert. Oil on canvas.    
+Rock formation in Fire Valley, Nevada. Oil on canvas.    
